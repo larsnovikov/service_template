@@ -21,7 +21,6 @@ echo 'Service template ready for dev!';" > index.php
           # set chmod
           cd ../../
           chmod -R 0777 web
-          rm -rf html
 
          break;;
         [Nn]* ) exit;;
